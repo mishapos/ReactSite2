@@ -14,7 +14,7 @@ export default function Home({ data }) {
             border-bottom: 1px solid;
           `}
         >
-          React Site 2
+          React Site 2 Feature Branch
         </h1>
         <h4>{data.allFile.totalCount} Images</h4>
         {data.allFile.edges.map(({ node }) => (
