@@ -14,7 +14,7 @@ export default function Home({ data }) {
             border-bottom: 1px solid;
           `}
         >
-          NASA Images
+          React Site 2
         </h1>
         <h4>{data.allFile.totalCount} Images</h4>
         {data.allFile.edges.map(({ node }) => (

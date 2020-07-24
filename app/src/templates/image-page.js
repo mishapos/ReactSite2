@@ -7,6 +7,7 @@ export default function ImagePage({ data }) {
   return (
     <Layout>
       <div>
+        <p>From Site 2</p>
         <img src={post.publicURL} alt="NASA space" />
       </div>
     </Layout>
