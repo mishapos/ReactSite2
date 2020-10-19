@@ -16,6 +16,7 @@ export default function Home({ data }) {
         >
           React Site 2
         </h1>
+        <p>Last Updated 10/19/2020 3:08 PM</p>
         <h4>{data.allFile.totalCount} Images</h4>
         {data.allFile.edges.map(({ node }) => (
           <div key={node.name}>
