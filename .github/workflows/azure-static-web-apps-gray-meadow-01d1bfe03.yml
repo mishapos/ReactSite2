@@ -26,7 +26,8 @@ jobs:
       - name: Build With Oryx
         run: |
           ls /repo
-          oryx build /repo --output /repo
+          oryx build /repo/app --output /repo/output
+          ls /repo/output
 #   build_and_deploy_job:
 #     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
 #     runs-on: ubuntu-latest
